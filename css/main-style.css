@@ -8,9 +8,10 @@ body {
 }
 
 .social-icons {
-	margin-top: -45px;
-	margin-right: 60px;
-	float: right;
+	position: absolute;
+	top: 45px;
+	right: 60px;
+
 }
 
 .social-icons ul li{
