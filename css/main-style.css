@@ -3,6 +3,10 @@ body {
   padding-top: 70px;
 }
 
+.logo{
+	margin-top:20px;
+}
+
 /* papper effect */
 #paper1, #paper2 {
 	position: relative;
@@ -15,8 +19,8 @@ body {
 
 #paper1
 {
-	margin: 300px auto;
-	background: radial-gradient(circle, white, #00ABF5);
+	margin: 100px auto;
+	background: #f9f9f9;
 }
 
 /* PSEUDO-ELEMENTS FOR OUR FIRST PAPER BOX */
@@ -27,13 +31,13 @@ body {
 	width: 45%;
 	height: 10px;
 	left: 10px;
-	bottom: 12px;
+	bottom: 15px;
 	content: "";
-	-moz-box-shadow: 5px 6px 15px black;
-	-webkit-box-shadow: 5px 6px 15px black;
-	-ms-box-shadow: 5px 6px 15px black;
-	-o-box-shadow: 5px 6px 15px black;
-	box-shadow: 5px 6px 15px black;
+	-moz-box-shadow: 5px 3px 15px black;
+	-webkit-box-shadow: 5px 3px 15px black;
+	-ms-box-shadow: 5px 3px 15px black;
+	-o-box-shadow: 5px 3px 15px black;
+	box-shadow: 5px 3px 15px black;
 	-moz-transform: skew(-5deg) rotate(-3deg);
 	-webkit-transform: skew(-5deg) rotate(-3deg);
 	-ms-transform: skew(-5deg) rotate(-3deg);
@@ -48,7 +52,7 @@ body {
 #paper1:after
 {
 	left: auto;
-	right: 3px;
+	right: 10px;
 	-moz-transform: skew(5deg) rotate(3deg);
 	-webkit-transform: skew(5deg) rotate(3deg);
 	-ms-transform: skew(5deg) rotate(3deg);
