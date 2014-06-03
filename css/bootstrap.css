@@ -3945,6 +3945,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+  box-shadow: 1px 1px 20px rgba(127,127,127,.5);
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4393,7 +4394,7 @@ a.list-group-item.active > .badge,
   -o-box-shadow: 1px 2px 11px black;
   box-shadow: 1px 2px 11px black;
 
-  /* Comment the z-index to make psuedo-elements visable */ 
+  /* Comment the z-index to make psuedo-elements visable */
   z-index: -1;
 }
 .jumbotron .container {
