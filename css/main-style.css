@@ -4,18 +4,17 @@ body {
 }
 
 .logo{
+	width:200px;
+	height:69px;
 	margin-top:20px;
+	float:left;
 }
 
 .social-icons {
-	margin-top: -45px;
-	margin-right: 60px;
-	float: right;
+	margin-top:45px;
+	float:right;
 }
 
-.social-icons ul li{
-	display: inline-block;
-}
 
 
 /* menu */
