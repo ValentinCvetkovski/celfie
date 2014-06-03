@@ -3,19 +3,16 @@ body {
   padding-top: 70px;
 }
 
+
 .logo{
 	width:200px;
 	height:69px;
 	margin-top:20px;
-	float:left;
+
 }
 
 .social-icons {
-	position: absolute;
-	top: 45px;
-	right: 60px;
 	margin-top:45px;
-	float:right;
 }
 
 
@@ -114,3 +111,19 @@ body {
 	-o-transform: skew(8deg) rotate(6deg);
 	transform: skew(8deg) rotate(6deg);
 }
+
+
+/* Mobile css under 768 */
+@media (max-width: 768px){
+  body {
+    padding-top: 100px;
+  }
+  .social-icons {
+	margin-top:0px;
+  }
+}
+
+
+
+
+

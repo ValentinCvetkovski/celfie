@@ -746,6 +746,13 @@ pre code {
   background-color:#222;
   position: relative;
 }
+
+@media (max-width: 768px){
+ .pre-header-navbar {
+  height:130px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -760,6 +767,7 @@ pre code {
   .container {
     width: 1170px;
   }
+
 }
 .container-fluid {
   padding-right: 15px;
