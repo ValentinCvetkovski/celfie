@@ -7,6 +7,16 @@ body {
 	margin-top:20px;
 }
 
+.social-icons {
+	margin-top: -45px;
+	margin-right: 60px;
+	float: right;
+}
+
+.social-icons ul li{
+	display: inline-block;
+}
+
 
 /* menu */
 .nav li {
