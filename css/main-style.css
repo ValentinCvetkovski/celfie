@@ -1,5 +1,5 @@
 body {
-  min-height: 2000px;
+  /*min-height: 2000px;*/
   padding-top: 70px;
 }
 
@@ -7,14 +7,20 @@ body {
 	margin-top:20px;
 }
 
+
+/* menu */
+.nav li {
+	margin-left: 70px;
+}
+
+
+
 /* papper effect */
 #paper1, #paper2 {
 	position: relative;
 	height: 600px;
 	width: 1000px;
 	width: 100%;
-
-
 }
 
 #paper1
