@@ -11,15 +11,11 @@ body {
 }
 
 .social-icons {
-<<<<<<< HEAD
 	position: absolute;
 	top: 45px;
 	right: 60px;
-
-=======
 	margin-top:45px;
 	float:right;
->>>>>>> d1ddc7c77a6a8e8fe946a2d1ad9c6ffcda5e6972
 }
 
 
