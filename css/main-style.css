@@ -1,0 +1,91 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+/* papper effect */
+#paper1, #paper2 {
+	position: relative;
+	height: 600px;
+	width: 1000px;
+}
+
+#paper1
+{
+	margin: 300px auto;
+	background: radial-gradient(circle, white, #00ABF5);
+}
+
+/* PSEUDO-ELEMENTS FOR OUR FIRST PAPER BOX */
+
+#paper1:before, #paper1:after
+{
+	position: absolute;
+	width: 45%;
+	height: 10px;
+	left: 10px;
+	bottom: 12px;
+	content: "";
+	-moz-box-shadow: 5px 6px 15px black;
+	-webkit-box-shadow: 5px 6px 15px black;
+	-ms-box-shadow: 5px 6px 15px black;
+	-o-box-shadow: 5px 6px 15px black;
+	box-shadow: 5px 6px 15px black;
+	-moz-transform: skew(-5deg) rotate(-3deg);
+	-webkit-transform: skew(-5deg) rotate(-3deg);
+	-ms-transform: skew(-5deg) rotate(-3deg);
+	-o-transform: skew(-5deg) rotate(-3deg);
+	transform: skew(-5deg) rotate(-3deg);
+	/* Comment the z-index to make psuedo-elements visable */
+	z-index: -1;
+}
+
+/* :AFTER PSEUDO-ELEMENT OVERRIDE FOR BOTTOM CORNER  */
+
+#paper1:after
+{
+	left: auto;
+	right: 3px;
+	-moz-transform: skew(5deg) rotate(3deg);
+	-webkit-transform: skew(5deg) rotate(3deg);
+	-ms-transform: skew(5deg) rotate(3deg);
+	-o-transform: skew(5deg) rotate(3deg);
+	transform: skew(5deg) rotate(3deg);
+}
+
+/* PSEUDO-ELEMENTS FOR OUR OVERLAID, 2ND PAPER BOX */
+
+#paper2:before, #paper2:after
+{
+	position: absolute;
+	width: 1.5%;
+	height: 50%;
+	top: 10px;
+	right: 6px;
+	content: "";
+	-moz-box-shadow: 5px 6px 16px grey;
+	-webkit-box-shadow: 5px 6px 16px grey;
+	-ms-box-shadow: 5px 6px 16px grey;
+	-o-box-shadow: 5px 6px 16px grey;
+	box-shadow: 5px 6px 16px grey;
+	-moz-transform: skew(-8deg) rotate(-6deg);
+	-webkit-transform: skew(-8deg) rotate(-6deg);
+	-ms-transform: skew(-8deg) rotate(-6deg);
+	-o-transform: skew(-8deg) rotate(-6deg);
+	transform: skew(-8deg) rotate(-6deg);
+	/* Comment the z-index to make psuedo-elements visable */
+	z-index: -1;
+}
+
+/* :AFTER PSEUDO-ELEMENT OVERRIDE FOR BOTTOM RIGHT CORNER  */
+
+#paper2:after
+{
+	top: auto;
+	bottom: 3px;
+	-moz-transform: skew(8deg) rotate(6deg);
+	-webkit-transform: skew(8deg) rotate(6deg);
+	-ms-transform: skew(8deg) rotate(6deg);
+	-o-transform: skew(8deg) rotate(6deg);
+	transform: skew(8deg) rotate(6deg);
+}
