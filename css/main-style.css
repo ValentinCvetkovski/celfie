@@ -13,6 +13,7 @@ body {
 
 .social-icons {
 	margin-top:45px;
+
 }
 
 
@@ -115,9 +116,7 @@ body {
 
 /* Mobile css under 768 */
 @media (max-width: 768px){
-  body {
-    padding-top: 100px;
-  }
+
   .social-icons {
 	margin-top:0px;
   }
