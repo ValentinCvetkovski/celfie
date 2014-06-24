@@ -114,15 +114,24 @@ body {
 }
 
 
-/* Mobile css under 768 */
-@media (max-width: 768px){
 
-  .social-icons {
-	margin-top:0px;
-  }
+
+
+@media (min-width: 767px) {
+
+	.navbar-default .navbar-nav > li > a {
+		margin-right: -40px; 
+	}
+
 }
 
 
+@media (min-width: 991px) {
 
+	.navbar-default .navbar-nav > li > a {
+		margin-right: -10px; 
+	}
+
+}
 
 
